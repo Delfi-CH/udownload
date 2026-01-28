@@ -2,12 +2,14 @@
 name = "udownload"
 version = "0.1.0"
 edition = "2024"
-description = "A simple wrapper around the crate 'ureq' to make downloading files easier."
+description = "Wrapper around the crate 'ureq' to make downloading files easier."
 readme = "README.md"
 license = "MIT"
 keywords = ["download","cli"]
 categories = ["web-programming::http-client", "filesystem"]
 exclude = ["example.json"]
+homepage = "https://github.com/Delfi-CH/udownload"
+repository = "https://github.com/Delfi-CH/udownload"
 
 [dependencies]
 indicatif = {version = "0.18.3", optional = true}

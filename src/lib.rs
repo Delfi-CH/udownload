@@ -1,3 +1,10 @@
+//! Wrapper around the crate 'ureq' to make downloading files easier
+//! 
+//!
+//!
+//! 
+//! 
+
 use std::{fs::File, path::PathBuf, io::{Read, Write}};
 
 use thiserror::Error;

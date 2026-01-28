@@ -7,7 +7,12 @@ A simple wrapper around the crate 'ureq' to make downloading files easier with o
 ## Building
 
 ```bash
+git clone https://github.com/Delfi-CH/udownload.git
 
+cd udownload
 
+cargo build --verbose
+
+cargo test --verbose
  ```
 
