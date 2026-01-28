@@ -1,0 +1,19 @@
+[package]
+name = "udownload"
+version = "0.1.0"
+edition = "2024"
+description = "A simple wrapper around the crate 'ureq' to make downloading files easier."
+readme = "README.md"
+license = "MIT"
+keywords = ["download","cli"]
+categories = ["web-programming::http-client", "filesystem"]
+exclude = ["example.json"]
+
+[dependencies]
+indicatif = {version = "0.18.3", optional = true}
+thiserror = "2.0.18"
+ureq = "3.1.4"
+
+[features]
+default = ["progress-bar"]
+progress-bar = ["dep:indicatif"]
