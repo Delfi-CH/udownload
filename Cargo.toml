@@ -7,7 +7,7 @@ readme = "README.md"
 license = "MIT"
 keywords = ["download","cli"]
 categories = ["web-programming::http-client", "filesystem"]
-exclude = ["example.txt"]
+exclude = ["example.txt", ".git*"]
 homepage = "https://github.com/Delfi-CH/udownload"
 repository = "https://github.com/Delfi-CH/udownload"
 
