@@ -16,5 +16,9 @@ indicatif = {version = "0.18.3", optional = true}
 thiserror = "2.0.18"
 ureq = "3.1.4"
 
+[dev-dependencies]
+mockito = "1.7.2"
+
+
 [features]
 progress-bar = ["dep:indicatif"]
